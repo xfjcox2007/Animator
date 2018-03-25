@@ -1,0 +1,17 @@
+oval name Center center-x 310 center-y 290 x-radius 40 y-radius 40 color 1 1 0
+from 6 to 100
+oval name A center-x 300 center-y 100 x-radius 60 y-radius 60 color 0 1 1
+from 6 to 100
+oval name B center-x 100 center-y 300 x-radius 60 y-radius 60 color 1 0 1
+from 6 to 100
+oval name C center-x 500 center-y 300 x-radius 60 y-radius 60 color 0 1 1
+from 6 to 100
+oval name D center-x 300 center-y 500 x-radius 60 y-radius 60 color 0 1 1
+from 6 to 100
+move name C moveto 500 300 300 300 from 10 to 50
+move name B moveto 100 300 300 300 from 10 to 50
+scale name Center scaleto 40 40 80 80 from 11 to 50
+layer 1 Center A B C D
+
+
+
