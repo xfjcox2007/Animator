@@ -1,0 +1,8 @@
+To run a animator, you need a file which contains all the shapes and shapes' information such as appearing time, disappearing
+time, color, detailed adjustion.
+Here are 4 demos
+In the command line, the formate is "-if demo1.txt -iv interactive -speed 20" as an example. "if" is the input file name, "iv"
+is how you would like to present the animation. It could be "text", which will show the animation in text. It could be "svg",
+which will generate a svg file, and you can open it in a broswer. It could be "visual", which will present the animation in an
+window. It also could be "interactive", which is the advanced visual, and you can export, adjust the process, select the 
+appearing shapes, change the color of background. "speed" is the speed of the animation.
